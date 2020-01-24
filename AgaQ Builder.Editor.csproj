@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{974448E2-DC65-278D-7D51-73DD8C05DD25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneOSXUniversal:2</UnityBuildTarget>
+    <UnityVersion>2017.4.2f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_2;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;AMPLIFY_SHADER_EDITOR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2017_4_2;UNITY_2017_4;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;AMPLIFY_SHADER_EDITOR</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.6-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.6-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.6-api/System.XML.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.6-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.6-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.6-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.6-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Timeline">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomation">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.HoloLens">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>/Applications/Unity 2017/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Facebook.Extensions">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>Assets/Libs/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Ookii.Dialogs">
+      <HintPath>Assets/Libs/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>Assets/Libs/JMOAssets/Editor/JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>/Users/pampas/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.4/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>/Users/pampas/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.4/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>/Users/pampas/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Analytics">
+      <HintPath>/Users/pampas/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>/Users/pampas/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>/Users/pampas/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>/Users/pampas/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity 2017/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AgaQ Builder.csproj">
+      <Project>{02F1A47E-2314-E674-88E0-C93FDC454FD4}</Project>
+      <Name>AgaQ Builder</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Actions\ActionData.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Actions\ActionLog.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Actions\ActionSequence.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Constants.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\DoCreateFunction.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\EditorOptions.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Graphs\NodeGrid.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Graphs\ParentGraph.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\AmplifyShaderEditorWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\AmplifyShaderFunction.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\AmplifyShaderFunctionEditor.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\AutoPanData.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Clipboard.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\ConfirmationWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\ConsoleLogWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\ContextMenuItem.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\CustomStylesContainer.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\DebugConsoleWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\DragAndDropTool.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\DuplicatePreventionBuffer.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\GraphContextMenu.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\MenuParent.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\NodeParametersWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\NodeWireReferencesUtils.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Palette\ContextPalette.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Palette\PaletteParent.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Palette\PalettePopUp.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Palette\PaletteWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\PortLegendInfo.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\SceneSaveCallback.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\ShaderEditorModeWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\ShaderLibrary.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Tools\ToolsMenuButton.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Tools\ToolsMenuButtonParent.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Tools\ToolsMenuButtonSep.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Menu\Tools\ToolsWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackColor.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackFloat.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackInt.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackMatrix4x4.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackString.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackTexture.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackVariable.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackVector2.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackVector3.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\FallbackVector4.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Native\IFallbackVars.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\CommentaryNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ColorNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\GlobalArrayNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\IntNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\Matrix3X3Node.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\Matrix4X4Node.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\MatrixParentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\PiNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\PropertyNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\RangedFloatNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\CameraAndScreen\CameraProjectionNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\CameraAndScreen\CameraWorldClipPlanes.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\CameraAndScreen\OrthoParams.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\CameraAndScreen\ProjectionParams.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\CameraAndScreen\ScreenParams.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\CameraAndScreen\WorldSpaceCameraPos.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\CameraAndScreen\ZBufferParams.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\ConstantShaderVariable.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\ConstVecShaderVariable.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\FogAndAmbient\FogAndAmbientColorsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\FogAndAmbient\FogParamsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Lighting\CustomStandardSurface.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Lighting\IndirectDiffuseLighting.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Lighting\IndirectSpecularLight.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Lighting\LightAttenuation.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Lighting\LightColorNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Lighting\WorldSpaceLightPos.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\ShaderVariablesNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Time\CosTime.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Time\DeltaTime.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Time\SimpleTimeNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Time\SinTimeNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Time\TimeNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\CameraToWorldMatrix.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\InverseTranspMVMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\MMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\MVMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\MVPMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\ObjectToWorldMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\ProjectionMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\Texture0MatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\Texture1MatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\Texture2MatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\Texture3MatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\TransformVariables.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\TransposeMVMatrix.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\UnityProjectorClipMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\UnityProjectorMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\UnityScaleMatrix.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\ViewMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\ViewProjectionMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\WorldToCameraMatrix.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\WorldToObjectMatrix.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Transform\WorldToTangentMatrix.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Various\ColorSpaceDouble.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Various\FaceVariableNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Various\LODFadeNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Various\SwitchByFaceNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\ShaderVariables\Various\WorldTransformParams.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\StaticSwitch.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\TauNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\TextureArrayNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\Vector2Node.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\Vector3Node.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Constants\Vector4Node.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\CustomAddNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\CustomNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\DrawInfo.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\DynamicTypeNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\CameraDepthFade.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ComputeGrabScreenPosHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ComputeScreenPosHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\DecodeDepthNormalNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\DecodeFloatRGBAHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\DecodeFloatRGHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\DecodeLightmapHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\DecodeViewNormalStereoHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\DepthFade.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\DitheringNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\EncodeDepthNormalNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\EncodeFloatRGBAHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\EncodeFloatRGHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\EncodeViewNormalStereoHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\GammaToLinearNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\HelperParentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\LinearToGammaNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\LuminanceHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ObjSpaceLightDirHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ObjSpaceViewDirHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ParallaxMappingNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ParallaxOcclusionMappingNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ParallaxOffsetHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\ShadeVertexLightsHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\SurfaceDepthNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\TriplanarNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\UnityObjToClipPosHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\UnityObjToViewPosHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\WorldSpaceLightDirHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\HelperFuncs\WorldSpaceViewDirHlpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\BlendOpsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\DesaturateOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\HSVToRGBNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\NoiseGeneratorNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\PosterizeNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\RGBToHSVNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\SimpleContrastOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\SimplexNoiseNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ImageEffects\TFHCGrayscale.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ISignalGenerator.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\ConditionalIfNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\KeywordSwitchNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCCompareEqual.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCCompareGreater.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCCompareGreaterEqual.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCCompareLower.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCCompareLowerEqual.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCCompareNotEqual.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCCompareWithRange.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCIf.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\LogicalOperators\TFHCStub.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\AdditionalDefinesHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\AdditionalIncludesHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\AdditionalPragmasHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\BillboardOpHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\BlendOpsHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\CodeGenerationData.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\ColorMaskHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\CustomTagsHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\DependenciesHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\FallbackPickerHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\FunctionInput.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\FunctionNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\FunctionOutput.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\LogNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\MasterNodeDataCollector.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\OutlineOpHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\OutputNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\RenderingOptionsOpHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\RenderingPlatformsOpHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\StandardSurface.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\StencilBufferOpHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\TessellationOpHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Master\ZBufferOpHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\AppendNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\BreakToComponentsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\CustomExpressionNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\DynamicAppendNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\FresnelNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\GetLocalVarNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\LayeredBlendNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\MatrixFromVectors.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\PosFromTransformMatrix.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\RegisterLocalVarNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\RelayNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\RotateAboutAxisNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\SummedBlendNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\SwitchNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\SwizzleNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\ToggleSwitchNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\Transformation\ObjectToWorldTransfNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\Transformation\ParentTransfNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\Transformation\WorldToObjectTransfNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\VectorFromMatrixNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\WeightedAvgNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\WeightedBlendNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Misc\WireNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\NodeAttributes.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\NodeRestrictions.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\NodeUsageRegister.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\NodeUtils.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\AbsOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ACosOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ASinOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ATan2OpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ATanOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\CeilOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ClampOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ClipNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ComponentMaskNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\CoshOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\CosOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\CrossProductOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\DdxOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\DdyOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\DegreesOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\DeterminantOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\DistanceOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\DotProductOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\Exp2OpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ExpOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\FloorOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\FmodOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\FractNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\FWidthOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\InverseOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\LengthOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\LerpOp.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\Log10OpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\Log2OpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\LogOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\MultipleInputOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\NegateNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\NormalizeNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\OneMinusNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\PowerNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\RadiansOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ReflectOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\RefractOpVec.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\RoundOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\RSqrtOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\SaturateNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ScaleAndOffsetNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\ScaleNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\SignOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\SimplifiedFModOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\SingleInputOp.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\SinhOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\SinOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\SmoothstepOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\SqrtOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\StepOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\TanhOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\TanOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\TFHCRemapNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\TransformVectorOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\TransposeOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\TruncOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Operators\VariablePortTypeOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ParentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\ReordenatorNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SignalGeneratorNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SimpleNodes\SimpleAddOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SimpleNodes\SimpleDivideOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SimpleNodes\SimpleMaxOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SimpleNodes\SimpleMinOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SimpleNodes\SimpleMultiplyOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SimpleNodes\SimpleRemainderNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SimpleNodes\SimpleSubtractOpNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\ColorInputsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\GrabScreenPosition.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\LocalVertexPosNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\ScreenColorNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\ScreenDepthNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\ScreenPosInputsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\SurfaceShaderINParentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\TexelSizeNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\UVCoordsParentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\ViewDirInputsCoordNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\WorldNormalInputsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\WorldNormalVector.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\WorldPosInputsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\WorldReflectionVector.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\SurfaceShaderInputs\WorldReflInputsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\BlendNormalsNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\HeightMapBlendNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\PannerNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\RotatorNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\SamplerNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\SubstanceSamplerNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\TextureCoordinatesNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\TexturePropertyNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\TextureTransformNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\TFHCFlipBookUVAnimation.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\TFHCPixelate.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\UnpackScaleNormalNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Textures\VirtualTextureObject.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\UndoParentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\BillboardNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\BitangentVertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\ColorVertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\NormalVertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\ObjectScaleNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\OutlineNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\PosVertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\TangentSignVertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\TangentVertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\Tessellation\DistanceBasedTessNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\Tessellation\EdgeLengthCullTessNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\Tessellation\EdgeLengthTessNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\Tessellation\TessellationParentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\TexCoord1VertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\TexCoordVertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\VertexBinormalNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\VertexColorNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\VertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\VertexTangentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Nodes\Vertex\VertexToFragmentNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\PreMadeShaders.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateCodeSnippetBase.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateColorMaskModule.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateCullModeModule.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateData.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateDataCollector.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateFragmentDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateHelperFunctions.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateInterpData.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMasterNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateMenuItems.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateModuleParent.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplatePostProcessor.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplatesBlendModule.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateShaderPropertyData.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateShaderPropertyNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplatesManager.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplatesStencilBufferModule.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateVertexData.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Templates\TemplateVertexDataNode.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\ASETextureArrayCreator.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\CustomMaterialInspector.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\CustomShaderInspector.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\EditorVariablesManager.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\GeneratorUtils.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\GenericMessage.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\InvalidDataChecker.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\IOUtils.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\NodeExporterUtils.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\RectExtension.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\ShortcutsManager.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\TipsWindow.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\UIUtils.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\UndoUtils.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\UpperLeftWidgetHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Utils\WindowHelper.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Version\About.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Version\VersionInfo.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Wires\GLDraw.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Wires\InputPort.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Wires\OutputPort.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Wires\WireBezierReference.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Wires\WirePort.cs" />
+    <Compile Include="Assets\Libs\AmplifyShaderEditor\Plugins\Editor\Wires\WireReference.cs" />
+    <Compile Include="Assets\Libs\DistanceTool\Editor\DistanceToolEditor.cs" />
+    <Compile Include="Assets\Libs\DistanceTool\Editor\DistanceToolMenu.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_Config.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_GetPosOnWater_Editor.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_GradientManager.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_GUI.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_MaterialInspector.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_MaterialInspector_PBS.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_MaterialInspector_PBS_SG.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_MaterialInspector_SG.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_Menu.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_OutlineInspector.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_RampGenerator.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_ShaderGenerator.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_ShaderGenerator.UIFeatures.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_ShaderUpdateUnityTime_Editor.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\TCP2_SmoothedNormalsUtility.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Utils\TCP2_ExpressionParser.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Utils\TCP2_ShaderGeneratorUtils.cs" />
+    <Compile Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Utils\TCP2_Utils.cs" />
+    <Compile Include="Assets\Libs\LeanLocalization\Editor\LeanLocalization_Editor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\BloomModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\BuiltinDebugViewsEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\ChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\ColorGradingModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\EyeAdaptationModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\FogModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\GrainModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\MotionBlurModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\ScreenSpaceReflectionModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\UserLutModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Models\VignetteModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Monitors\HistogramMonitor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Monitors\ParadeMonitor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Monitors\WaveformMonitor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\PostProcessingBehaviourEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\PostProcessingFactory.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\PostProcessingInspector.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\PostProcessingModelEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\PostProcessingMonitor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\PropertyDrawers\GetSetDrawer.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\PropertyDrawers\MinDrawer.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\PropertyDrawers\TrackballGroupDrawer.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Utils\CurveEditor.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Utils\EditorGUIHelper.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Utils\EditorResources.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Utils\FxStyles.cs" />
+    <Compile Include="Assets\Libs\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\EditorCameraInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\EditorGizmoSystemInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\EditorObjectSelectionInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\EditorUndoRedoSystemInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\GizmoInspectorGUIBase.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\Helpers\EditorGUIStyles.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\RotationGizmoInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\RuntimeEditorApplicationInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\ScaleGizmoInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\SceneGizmoInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\TranslationGizmoInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\Runtime Transform Gizmos\Editor\VolumeScaleGizmoInspectorGUI.cs" />
+    <Compile Include="Assets\Libs\unity-ui-extensions\Editor\AccordionElementEditor.cs" />
+    <Compile Include="Assets\Libs\unity-ui-extensions\Editor\BoxSliderEditor.cs" />
+    <Compile Include="Assets\Libs\unity-ui-extensions\Editor\CanvasGroupActivator.cs" />
+    <Compile Include="Assets\Libs\unity-ui-extensions\Editor\CompressionTests.cs" />
+    <Compile Include="Assets\Libs\unity-ui-extensions\Editor\NonDrawingGraphicEditor.cs" />
+    <Compile Include="Assets\Libs\unity-ui-extensions\Editor\TextPicEditor.cs" />
+    <Compile Include="Assets\Libs\unity-ui-extensions\Editor\uGUITools.cs" />
+    <Compile Include="Assets\Libs\unity-ui-extensions\Editor\UIExtensionsMenuOptions.cs" />
+    <Compile Include="Assets\Libs\Wilberforce Wireframe\Assets\Editor\WireframeEditor.cs" />
+    <Compile Include="Assets\Scripts\AssetPostprocessors\Editor\AutomaticIconsPostprocessor.cs" />
+    <Compile Include="Assets\Scripts\AssetPostprocessors\Editor\BrickJointDetector.cs" />
+    <Compile Include="Assets\Scripts\AssetPostprocessors\Editor\BrickPinsDetector.cs" />
+    <Compile Include="Assets\Scripts\AssetPostprocessors\Editor\IDetector.cs" />
+    <Compile Include="Assets\Scripts\AssetPostprocessors\Editor\ModelsPostprocessor.cs" />
+    <Compile Include="Assets\Scripts\AssetPostprocessors\Editor\Pin.cs" />
+    <Compile Include="Assets\Scripts\Bricks\DimensionGroups\Editor\DimensionGroupEditor.cs" />
+    <Compile Include="Assets\Scripts\Bricks\Editor\AgaQBrickEditor.cs" />
+    <Compile Include="Assets\Scripts\Bricks\Editor\JointEditor.cs" />
+    <Compile Include="Assets\Scripts\Bricks\Serialization\Editor\BricksUuidDictionaryEditor.cs" />
+    <Compile Include="Assets\Scripts\Bricks\Serialization\Stl\Editor\pb_Stl_Menu.cs" />
+    <Compile Include="Assets\Scripts\Bricks\Serialization\Stl\Editor\STLAssetPostProcessor.cs" />
+    <Compile Include="Assets\Scripts\UI\Editor\BrickButtonEditor.cs" />
+    <Compile Include="Assets\Scripts\UI\Editor\BrickListEditor.cs" />
+    <Compile Include="Assets\Scripts\UI\Editor\ToggleButtonEditor.cs" />
+    <Compile Include="Assets\Scripts\UI\Editor\ToolButtonEditor.cs" />
+    <Compile Include="Assets\Tests\Bricks\Editor\AgaQBrickTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\Editor\BrickTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\Editor\DragableBrickTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\Editor\HiglightableBrickTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\Editor\SelectableBrickTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\Editor\SelectionManagerTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\Editor\TransparentBrickTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\History\Editor\HistoryToolTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\Serialization\STL\Editor\STLTests.cs" />
+    <Compile Include="Assets\Tests\Bricks\Tools\Editor\ToolsTests.cs" />
+    <Compile Include="Assets\Tests\Camera\Editor\GridBoundsTests.cs" />
+    <Compile Include="Assets\Tests\Camera\Editor\GridTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Gfx\Materials\Bricks materials\Outline.shader" />
+    <None Include="Assets\Gfx\Materials\Edge glow.shader" />
+    <None Include="Assets\Gfx\Materials\EdgeDetect.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\ChangeLog.txt" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\LinearPreviews.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ACosOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ASinOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ATan2OpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ATanOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_AbsOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_AppendNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_BlendNormalsNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_BlendOpsNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_BreakToComponentsNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CeilOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ClampOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ColorNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ComponentMaskNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CosOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CosTime.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CoshOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_CrossProductOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DdxOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DdyOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DegreesOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DeltaTime.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DistanceOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DotProductOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_DynamicAppendNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Exp2OpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ExpOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FWidthOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FloorOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FmodOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FractNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FresnelNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FunctionInputNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FunctionNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_FunctionOutputNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_GammaToLinearNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_GetLocalVarNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_IndirectDiffuseLight.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_IndirectSpecularLight.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_IntNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LengthOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LerpOp.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LightAttenuation.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LightColorNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LinearToGammaNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Log10OpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Log2OpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_LogOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NegateNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NodeMasking.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NormalVertexDataNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_NormalizeNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ObjSpaceLightDirHlpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ObjSpaceViewDirHlpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ObjectScaleNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ObjectToWorldTransfNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_OneMinusNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PannerNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ParallaxMappingNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PiNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PosVertexDataNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_PowerNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RadiansOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RangedFloatNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ReflectOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RefractOpVec.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RegisterLocalVarNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RelayNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RotatorNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RoundOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_RsqrtOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SamplerNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SaturateNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ScaleAndOffsetNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ScaleNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ScreenPosInputsNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SignOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleAddOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleDivideOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleMaxOp.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleMinNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleMultiplyOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleRemainderNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleSubtractOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimpleTimeNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SimplifiedFModOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SinOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SinTimeNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SinhOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SmoothstepOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SqrtOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_StaticSwitchNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_StepOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SubstanceSamplerNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_SwitchNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCFlipBookUVAnimation.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCPixelateUV.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TFHCRemap.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TanOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TangentSignVertexDataNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TangentVertexDataNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TanhOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TauNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TemplateShaderProperty.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TexCoordVertexDataNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Texture2D.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TextureArrayNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TextureCoordinatesNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TexturePropertyNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TimeNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ToggleSwitchNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TriplanarNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_TruncOpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_UnpackScaleNormalNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Vector2Node.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Vector3Node.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_Vector4Node.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexBinormalNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexColorNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_VertexTangentNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_ViewDirInputsCoordNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WireNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldNormalVector.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldPosInputsNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldReflectionVector.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceCameraPos.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceLightDirHlpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceLightPosNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldSpaceViewDirHlpNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldToObjectTransfNode.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Previews\Preview_WorldTransformParams.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\ShaderLibrary\ShaderLibrary.txt" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Shaders\ASESShaderSelectorUnlit.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Shaders\Unlit-ColoredAlpha.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Templates\DefaultUnlit.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Templates\Particle Alpha Blend.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Templates\PostProcess.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Templates\Sprites-Default.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Plugins\EditorResources\Templates\UIDefault.shader" />
+    <None Include="Assets\Libs\AmplifyShaderEditor\Readme.txt" />
+    <None Include="Assets\Libs\DebugDrawingExtension\readme.txt" />
+    <None Include="Assets\Libs\DistanceTool\READ ME.txt" />
+    <None Include="Assets\Libs\JMOAssets\!JMO Assets Readme.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\!ToonyColorsPro Readme.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Demo TCP2\SG Demo Assets\_Misc Assets\TCP2_Demo_3DText.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Demo TCP2\TCP2 Demo Assets\Cubemaps\Cubemaps License.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Shader Templates\TCP2_ShaderTemplate_Default.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Shader Templates\TCP2_ShaderTemplate_Default_CurvedWorld.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Shader Templates\TCP2_ShaderTemplate_PBS.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Shader Templates\TCP2_ShaderTemplate_Terrain.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Shader Templates\TCP2_ShaderTemplate_Water.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Editor\Shader Templates\TCP2_ShaderTemplate_Water_CurvedWorld.txt" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Default\Comic Book.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Default\Dissolve.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Default\HSV.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Default\Old School.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Default\Sketch.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Default\Subsurface Scattering.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\PBS\Blended Outline.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\PBS\Hand Painted.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\PBS\Outline Behind.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\PBS\Sketch.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Water\Lava Cartoon.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Water\Lava.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Water\Poison.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Water\Realistic.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Water\Reflection.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Water\Water WindWaker.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0 Generated\Examples\Water\Water WindWaker2.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Include.cginc" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline_Behind.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline_Behind_SM2.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline_Include.cginc" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline_SM2.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\TCP2_Desktop.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\TCP2_Mobile.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\TCP2_OutlineOnly Blended SM2.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\TCP2_OutlineOnly Blended.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\TCP2_OutlineOnly SM2.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\TCP2_OutlineOnly.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_Outline.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_OutlineBlending.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_Specular.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_Specular_Outline.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_Specular_OutlineBlending.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_Outline.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_OutlineBlending.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_Specular.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_Specular_Outline.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_Specular_OutlineBlending.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_PBS_BRDF.cginc" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_PBS_Core.cginc" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_PBS_Main.cginc" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_PBS_ShadowMeta.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS (Specular).shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS Outline (Specular).shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS Outline Blended (Specular).shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS Outline Blended.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS Outline.shader" />
+    <None Include="Assets\Libs\JMOAssets\Toony Colors Pro\Shaders PBS\TCP2_Standard PBS.shader" />
+    <None Include="Assets\Libs\LeanLocalization\Examples\English.txt" />
+    <None Include="Assets\Libs\LeanLocalization\Examples\Japanese.txt" />
+    <None Include="Assets\Libs\LeanLocalization\Examples\Spanish.txt" />
+    <None Include="Assets\Libs\OutlineEffect\Resources\OutlineBufferShader.shader" />
+    <None Include="Assets\Libs\OutlineEffect\Resources\OutlineShader.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Happy Flower\happy flower care instructions.txt" />
+    <None Include="Assets\Libs\OutlineToolkit\README.txt" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\EdgeCombine.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\EdgeDetect.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\EncodedDepth.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\NamedStandard.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\Normals.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\Outline.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\OutlineDepthDependant.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\ProcessedEdges.shader" />
+    <None Include="Assets\Libs\OutlineToolkit\Shader\StandardSurfaceOutlined.shader" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\Libs\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Libs\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Libs\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Readme\Hotkeys.txt" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Readme\Readme.txt" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Readme\Version History.txt" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Resources\Shaders\GLLine.shader" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Resources\Shaders\Geometry2D.shader" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Resources\Shaders\Gizmo Line.shader" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Resources\Shaders\Gizmo Solid Component.shader" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Resources\Shaders\Gradient Camera Bk.shader" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Resources\Shaders\TintedDiffuse.shader" />
+    <None Include="Assets\Libs\Runtime Transform Gizmos\Resources\Shaders\XZGrid.shader" />
+    <None Include="Assets\Libs\Wilberforce Wireframe\Assets\Shaders\Wireframe.shader" />
+    <None Include="Assets\Libs\Wilberforce Wireframe\Documentation\ReadMe.txt" />
+    <None Include="Assets\Libs\unity-ui-extensions\Scripts\Utilities\Serialization\Surrogates\SurrogatesReadMe.txt" />
+    <None Include="Assets\Libs\unity-ui-extensions\Shaders\SoftMaskShader.shader" />
+    <None Include="Assets\Libs\unity-ui-extensions\Shaders\UIAdditive.shader" />
+    <None Include="Assets\Libs\unity-ui-extensions\Shaders\UIImageCrop.shader" />
+    <None Include="Assets\Libs\unity-ui-extensions\Shaders\UILinearDodge.shader" />
+    <None Include="Assets\Libs\unity-ui-extensions\Shaders\UIMultiply.shader" />
+    <None Include="Assets\Libs\unity-ui-extensions\Shaders\UIParticleHidden.shader" />
+    <None Include="Assets\Libs\unity-ui-extensions\Shaders\UIScreen.shader" />
+    <None Include="Assets\Libs\unity-ui-extensions\Shaders\UISoftAdditive.shader" />
+    <None Include="Assets\Localizations\English.txt" />
+    <None Include="Assets\Localizations\Polish.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

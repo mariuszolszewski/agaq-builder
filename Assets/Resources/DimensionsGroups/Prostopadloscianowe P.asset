@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa898e9de1324ecfa5df0f31be59548, type: 3}
+  m_Name: Prostopadloscianowe P
+  m_EditorClassIdentifier: 
+  groupName: P {0}/{0} {1}H
+  dimensions:
+  - translationLabel: BrickLength
+    readOnly: 0
+    paramType: 0
+  - translationLabel: BrickHeight
+    readOnly: 1
+    paramType: 0
+  bricksInGroup:
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ Podstawowe/AGAQ P1x1x1
+      \ P _P1x1x1 _ _PX1k_Y1k_H1_ _kat-xz=90_yz=90_xy=90. luk-xz=0_yz=0_xy=0_ _1tg-1kd_Pr
+      -w_z_m_kp-pr_ _up-pr_"
+    paramsValues:
+    - 1
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ Podstawowe/AGAQ P1x2x1
+      \ P _P1x2x1 _ _PX1k_Y2k_H1_ _kat-xz=90_yz=90_xy=90. luk-xz=0_yz=0_xy=0_ _1tg-1kd_Pr
+      -w_z_m_kp-pr_ _up-pr_"
+    paramsValues:
+    - 2
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ Podstawowe/AGAQ P1x3x1
+      \ P _P1x3x1 _ _PX1k_Y3k_H1_ _kat-xz=90_yz=90_xy=90. luk-xz=0_yz=0_xy=0_ _1tg-1kd_Pr
+      -w_z_m_kp-pr_ _up-pr_"
+    paramsValues:
+    - 3
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ Podstawowe/AGAQ P1x4x1
+      \ P _P1x4x1 _ _PX1k_Y4k_H1_ _kat-xz=90_yz=90_xy=90. luk-xz=0_yz=0_xy=0_ _1tg-1kd_Pr
+      -w_z_m_kp-pr_ _up-pr_"
+    paramsValues:
+    - 4
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ Podstawowe/AGAQ P1x5x1
+      \ P _P1x5x1 _ _PX1k_Y5k_H1_ _kat-xz=90_yz=90_xy=90. luk-xz=0_yz=0_xy=0_ _1tg-1kd_Pr
+      -w_z_m_kp-pr_ _up-pr_"
+    paramsValues:
+    - 5
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ Podstawowe/AGAQ P1x6x1
+      \ P _P1x6x1 _ _PX1k_Y6k_H1_ _kat-xz=90_yz=90_xy=90. luk-xz=0_yz=0_xy=0_ _1tg-1kd_Pr
+      -w_z_m_kp-pr_ _up-pr_"
+    paramsValues:
+    - 6
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ Podstawowe/AGAQ P1x8x1
+      \ P _P1x8x1 _ _PX1k_Y8k_H1_ _kat-xz=90_yz=90_xy=90. luk-xz=0_yz=0_xy=0_ _1tg-1kd_Pr
+      -w_z_m_kp-pr_ _up-pr_"
+    paramsValues:
+    - 8
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ Podstawowe/AGAQ P1x12x1
+      \ P _P1x12x1 _ _PX1k_Y12k_H1_ _kat-xz=90_yz=90_xy=90. luk-xz=0_yz=0_xy=0_ _1tg-1kd_Pr
+      -w_z_m_kp-pr_ _up-pr_"
+    paramsValues:
+    - 12
+    - 1
+  translationImageResourcePath: Rys1

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa898e9de1324ecfa5df0f31be59548, type: 3}
+  m_Name: Prostopadloscianowe T
+  m_EditorClassIdentifier: 
+  groupName: PT1 {0}/{0} {5]H (w) L/RR 90st (z)/ PT2 {1}/{1} {5}H (w) L/RR 90st (w)
+    / PT3 {2}/{2} {5}H (w)
+  dimensions:
+  - translationLabel: RightArmLength
+    readOnly: 0
+    paramType: 0
+  - translationLabel: LeftArmLength
+    readOnly: 0
+    paramType: 0
+  - translationLabel: SideArmLength
+    readOnly: 0
+    paramType: 0
+  - translationLabel: ProwadniceRamieGlowne
+    readOnly: 0
+    paramType: 2
+  - translationLabel: ProwadziceRamieBoczne
+    readOnly: 0
+    paramType: 2
+  - translationLabel: BrickHeight
+    readOnly: 1
+    paramType: 0
+  - translationLabel: JoinAngle
+    readOnly: 1
+    paramType: 1
+  bricksInGroup:
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW2x2"
+    paramsValues:
+    - 2
+    - 2
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW2x3"
+    paramsValues:
+    - 2
+    - 3
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW2x4"
+    paramsValues:
+    - 2
+    - 3
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW3x2"
+    paramsValues:
+    - 3
+    - 2
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW3x3"
+    paramsValues:
+    - 3
+    - 3
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW3x4"
+    paramsValues:
+    - 3
+    - 4
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW4x2"
+    paramsValues:
+    - 4
+    - 2
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW4x3"
+    paramsValues:
+    - 4
+    - 3
+    - 1
+  - brickPath: "AgaQ/AgaQ Prostopad\u0142oscianowe STL/AgaQ L Wewnetrzne/AGAQ PLW4x4"
+    paramsValues:
+    - 4
+    - 4
+    - 1

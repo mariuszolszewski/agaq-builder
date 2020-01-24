@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa898e9de1324ecfa5df0f31be59548, type: 3}
+  m_Name: Trapezowe Trzpieniowe Piramidowe zamkniete
+  m_EditorClassIdentifier: 
+  groupName: 
+  dimensions:
+  - translationLabel: RightLength
+    readOnly: 0
+    paramType: 0
+  - translationLabel: LeftLenght
+    readOnly: 0
+    paramType: 0
+  - translationLabel: Height
+    readOnly: 1
+    paramType: 0
+  - translationLabel: Angle
+    readOnly: 0
+    paramType: 1
+  - translationLabel: RodzajNachylenia
+    readOnly: 0
+    paramType: 2
+  bricksInGroup: []
